@@ -1,0 +1,54 @@
+main{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color:pink;
+}
+header{
+  /*float: left;*/
+  background-color:rgba(135,206,235,0.6);
+  padding: 10px;
+  text-align: center;
+
+}
+h1{
+  color: red;
+  font-weight:bolder;
+}
+.description{
+  color: rgb(50,20,30);
+
+}
+.food{
+  float:left;
+  font-family: serif;
+  width: 200px;
+}
+.feedback{
+  float: left;
+  font-family: serif;
+  Margin: 0;
+  text-align: center;
+}
+span{
+  color:red;
+}
+em{
+  color:orange;
+}
+.pictures{
+  display:flex;
+  width: 10px;
+  padding: 10px;
+}
+#one{
+  flex:1;
+  padding: 20px;
+}
+#two{
+  flex:1;
+  padding: 20px;
+}
+#five{
+  float:left;
+  }
